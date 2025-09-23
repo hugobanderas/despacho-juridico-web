@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Despacho Jurídico</title>
+    <link rel="icon" type="image/png" href="mazojusticia.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="intro-screen">
+        <img src="logo.png" alt="Logo Despacho Jurídico" id="logo">
+        <h1 id="welcome-message">BIENVENIDO</h1>
+    </div>
+
+    <main id="main-content">
+        <header id="navbar">
+            <div class="logo-nav">
+                <img src="logo.png" alt="Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio" data-target="inicio">Inicio</a></li>
+                    <li><a href="#servicios" data-target="servicios">Servicios</a></li>
+                    <li><a href="#quienes-somos" data-target="quienes-somos">Quiénes Somos</a></li>
+                    <li><a href="#contacto" data-target="contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="inicio" class="page-content active">
+            <h2>Abogados Confiables y Expertos</h2>
+            <p>Especialistas en Materia Laboral, Penal, Mercantil y Amparo.</p>
+        </section>
+
+        <section id="servicios" class="page-content">
+            <h3>Nuestros Servicios</h3>
+            <div class="service-grid">
+                <div class="service-item">
+                    <h4>Asesoría y Litigio Laboral</h4>
+                    <p>Representación integral y defensa de los derechos de nuestros clientes, garantizando justicia y equidad en cada caso.</p>
+                </div>
+                <div class="service-item">
+                    <h4>Protección Patronal a PYMES</h4>
+                    <p>Blindamos a tu empresa contra riesgos laborales y legales, ofreciendo asesoría especializada para asegurar el crecimiento y la estabilidad de tu negocio.</p>
+                </div>
+                <div class="service-item">
+                    <h4>Defensa Penal</h4>
+                    <p>Brindamos representación 24/7 en cualquier etapa del proceso. Desde la asistencia inmediata ante el Ministerio Público hasta la fase de ejecución, estamos a tu lado para asegurar tu defensa más sólida.</p>
+                </div>
+                <div class="service-item">
+                    <h4>Litigio Mercantil</h4>
+                    <p>Expertos en la recuperación de activos y la resolución de conflictos comerciales. Nos encargamos de la cobranza de pagarés, cheques y cualquier documento mercantil, protegiendo tus intereses con estrategias efectivas y resultados contundentes.</p>
+                </div>
+                <div class="service-item">
+                    <h4>Juicio de Amparo</h4>
+                    <p>Garantizamos la protección de tus derechos fundamentales frente a actos de autoridad. Nuestra experiencia en juicios de amparo asegura que tu libertad y patrimonio estén siempre resguardados.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="quienes-somos" class="page-content">
+            <h3>Quiénes Somos</h3>
+            <div class="bio-container">
+                <div class="bio-photo">
+                    <img src="http://googleusercontent.com/image_collection/image_retrieval/709210354218092437_0" alt="Foto del Licenciado Hugo López">
+                </div>
+                <div class="bio-text">
+                    <p>Iniciamos nuestra trayectoria en 2008, con la visión de ofrecer soluciones jurídicas efectivas y personalizadas. Nuestro fundador, el **Licenciado Hugo Martín López Hernández**, ha guiado al despacho con un compromiso inquebrantable hacia la excelencia y la justicia.</p>
+                    <p>Con más de 15 años de experiencia, el Lic. López ha forjado una destacada trayectoria como abogado penalista y laboralista, logrando importantes triunfos que resaltan su dedicación y pericia. Su enfoque se centra en la defensa rigurosa de los derechos de sus clientes, ofreciendo un servicio de la más alta calidad y un trato personalizado que inspira confianza.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="page-content">
+            <h3>Contacto</h3>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <p>Teléfonos: <a href="tel:5536628422">5536628422</a>, <a href="tel:5520841834">5520841834</a></p>
+                    <p>Horario de atención general: Lunes a viernes de 8:00am a 6:00pm</p>
+                    <p>Para asuntos penales: Atención 24/7</p>
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.155460596372!2d-99.16726588506821!3d19.41432048689531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f884a2d82991%3A0x6b489d8924083a2a!2sMexico%20City%20downtown!5e0!3m2!1sen!2smx!4v1634825968567!5m2!1sen!2smx" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h4>Envíanos un Mensaje</h4>
+                    <form action="https://formspree.io/f/xvgwpjkd" method="POST">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" required>
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        
+                        <button type="submit">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>© 2025 Despacho Jurídico. Todos los derechos reservados.</p>
+        </footer>
+    </main>
+
+    <a href="https://wa.me/5632739596" class="whatsapp-button" target="_blank" rel="noopener noreferrer">
+        <img src="whatsapp-logo.png" alt="WhatsApp">
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
